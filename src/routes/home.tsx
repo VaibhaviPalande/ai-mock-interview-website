@@ -13,10 +13,10 @@ const HomePage = () => {
         <div className="my-8">
           <h2 className="text-3xl text-center md:text-left md:text-6xl">
             <span className=" text-outline font-extrabold md:text-8xl">
-              IntervuBot.ai
+              IntervuBot.ai 
             </span>
             <span className="text-gray-500 font-extrabold">
-              - A better way to
+               - A better way to
             </span>
             <br />
             improve your interview chances and skills
@@ -27,13 +27,13 @@ const HomePage = () => {
 
        
 <div className="flex flex-col md:flex-row w-full items-center justify-center gap-12 md:px-12 md:py-16 ">
-  <p className="text-3xl font-semibold text-gray-900 text-center">
+  <p className="text-4xl font-semibold text-gray-900 text-center">
     <CountUp end={250000} duration={3} separator="," suffix="+" />
     <span className="block text-xl text-muted-foreground font-normal">
       Offers Received
     </span>
   </p>
-  <p className="text-3xl font-semibold text-gray-900 text-center">
+  <p className="text-4xl font-semibold text-gray-900 text-center">
     <CountUp end={1200000} duration={3} separator="," suffix="+" />
     <span className="block text-xl text-muted-foreground font-normal">
       Interviews Aced
@@ -52,20 +52,10 @@ const HomePage = () => {
           />
 
           <div className="absolute top-4 left-4 px-4 py-2 rounded-md bg-white/40 backdrop-blur-md">
-            Inteviews Copilot&copy;
+            Interviews Copilot&copy;
           </div>
 
-          <div className="hidden md:block absolute w-80 bottom-4 right-4 px-4 py-2 rounded-md bg-white/60 backdrop-blur-md">
-            <h2 className="text-neutral-800 font-semibold">Developer</h2>
-            <p className="text-sm text-neutral-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              distinctio natus, quos voluptatibus magni sapiente.
-            </p>
-
-            <Button className="mt-3">
-              Generate <Sparkles />
-            </Button>
-          </div>
+          
         </div>
       </Container>
 

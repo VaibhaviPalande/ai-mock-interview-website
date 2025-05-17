@@ -46,7 +46,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-black text-gray-300 hover:text-gray-100 py-8">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* First Column: Links */}
           <div>
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
@@ -69,21 +69,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Third Column: Services */}
-          <div>
-            <h3 className="font-bold text-lg mb-4">Services</h3>
-            <ul>
-              <FooterLink to="/services/interview-prep">
-                Interview Preparation
-              </FooterLink>
-              <FooterLink to="/services/career-coaching">
-                Career Coaching
-              </FooterLink>
-              <FooterLink to="/services/resume-building">
-                Resume Building
-              </FooterLink>
-            </ul>
-          </div>
+          
 
           {/* Fourth Column: Address and Social Media */}
           <div>
