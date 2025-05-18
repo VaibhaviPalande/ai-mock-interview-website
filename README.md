@@ -60,3 +60,18 @@
 - 🏅 **Gamification**  
   Award badges, points, and levels based on user milestones and performance.
 
+---
+
+## 📸 Demo
+
+![Demo](public/assets1/img/demo.jpg)
+![Demo](public/assets1/img/demo1.png)
+![Demo](public/assets1/img/demo2.png)
+![Demo](public/assets1/img/demo3.png)
+![Demo](public/assets1/img/demo4.png)
+![Demo](public/assets1/img/demo5.png)
+![Demo](public/assets1/img/demo6.png)
+![Demo](public/assets1/img/demo7.png)
+
+
+> Real-time AI interview simulation with voice and webcam integration.
