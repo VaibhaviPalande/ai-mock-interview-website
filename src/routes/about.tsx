@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { Button } from "@/components/ui/button"; // Adjust path if needed
 
 export const AboutPage = () => {
@@ -52,7 +52,7 @@ export const AboutPage = () => {
         <p>Want to explore the codebase or contribute to the project?</p>
         <Button asChild className="bg-[#2ad3a6] hover:bg-[#25b890] text-white px-6 py-2 rounded-lg">
           <a
-            href="https://github.com/your-username/ai-mock-interview"
+            href="https://github.com/VaibhaviPalande?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
           >
