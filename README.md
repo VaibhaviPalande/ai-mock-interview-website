@@ -1,54 +1,62 @@
-# React + TypeScript + Vite
+# 🤖 IntervuBot.ai — AI Mock Interview Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**IntervuBot.ai** is a cutting-edge AI-powered mock interview platform designed to simulate real-world interview experiences. It helps users practice technical and behavioral questions, receive AI-generated feedback, and improve their interview skills in a safe, interactive environment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Core Features
 
-## Expanding the ESLint configuration
+- 🔐 **User Authentication** with Clerk & Firebase (for data storage & realtime updates)
+- 🧠 **Google Gemini AI Integration** for question generation and answer evaluation
+- 🎤 **Voice Recognition**: Answer questions using your voice with real-time transcription & AI feedback
+- 📹 **Webcam Integration**: Practice in a realistic video interview setting using React Webcam
+- 📝 **Save & Review**: Store your answers and review your interview history anytime
+- 📊 **Real-time AI Feedback** with scoring and personalized improvement suggestions
+- 🎨 **Responsive UI** built with React + Tailwind CSS
+- ⚡ **Fast Development** using Vite + TypeScript
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧱 Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Category         | Technology              |
+|------------------|-------------------------|
+| Frontend         | React.js, Vite, TypeScript |
+| Styling          | Tailwind CSS            |
+| Authentication   | Clerk                   |
+| AI Integration   | Google Gemini API       |
+| Data Storage     | Firebase Firestore      |
+| Webcam           | React Webcam            |
+| Voice Recognition| Web Speech API          |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🧠 How It Works
+
+1. Users **sign up or log in** with Clerk.
+2. Users select a job role or interview type (technical or behavioral).
+3. Google Gemini AI generates **contextual interview questions**.
+4. Users can **answer by typing or voice**; webcam video recording is optional.
+5. AI evaluates answers in real-time and provides **feedback, scores, and tips**.
+6. Answers and session data are saved in **Firebase Firestore** for later review.
+7. Users track their progress over time through saved interviews.
+
+---
+
+## 💡 Future Improvements & Ideas
+
+- 📄 **ATS Resume Checker**  
+  Analyze resumes for job description alignment and give personalized suggestions.
+
+- ⭐ **Behavioral Question Mode**  
+  Focused training on HR/behavioral rounds with STAR (Situation, Task, Action, Result) format guidance.
+
+- 👥 **Peer Review System**  
+  Allow users to review each other’s answers and provide constructive feedback.
+
+- 📈 **Performance Analytics Dashboard**  
+  Visualize user progress, strengths, weaknesses, and improvement trends over time.
+
+- 🏅 **Gamification**  
+  Award badges, points, and levels based on user milestones and performance.
+
